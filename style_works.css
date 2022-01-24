@@ -1,14 +1,68 @@
+.titlearea {
+    margin: 0%;
+    padding: 10%;
+    text-align: center;
+}
+
+:root {
+    margin: 0%;
+}
+
 @media (prefers-color-scheme: dark) {
+
+    .titlearea {
+        background-color: whitesmoke;
+        color: midnightblue;
+    }
+
+    .visitkazusite {
+        background-color: whitesmoke;
+        color: midnightblue;
+    }
+
+    .visitkazusite:hover {
+        background-color: white;
+        color: midnightblue;
+    }
+
     :root {
         background-color: midnightblue;
         color: whitesmoke
     }
+
 }
 
 @media (prefers-color-scheme: light) {
+
+    .titlearea {
+        background-color: midnightblue;
+        color: whitesmoke;
+    }
+
+    .visitkazusite {
+        background-color: midnightblue;
+        color: whitesmoke;
+    }
+
+    .visitkazusite:hover {
+        background-color: #222299;
+        color: whitesmoke;
+    }
+
     :root {
         background-color: whitesmoke;
         color: midnightblue;
     }
 }
 
+@media screen and  (min-width: 480px) {
+    .padding2a {
+		padding: 0px 15px 0px 15px;
+	}
+}
+
+@media screen and  (max-width: 480px) {
+    .padding2a {
+		padding: 0px 5px 0px 5px;
+	}
+}
